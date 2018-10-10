@@ -14,4 +14,46 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="protoolkit_asmTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="creoPart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="creoFeature.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="creoAssembly.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reoPart_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="partTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt">
+      <Filter>源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="creoPart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="creoFeature.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="creoAssembly.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reoPart_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="partTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

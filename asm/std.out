@@ -1,0 +1,4 @@
+ERROR - C:\Program Files\PTC\Creo 4.0\M040\Common Files\text\config.pro, linenum 86: Invalid value 'shading_low' for keyword 'SAVE_MODEL_DISPLAY'.
+ERROR - C:\Program Files\PTC\Creo 4.0\M040\Common Files\text\config.pro, linenum 98:  Keyword 'SYSTEM_EDGE_HIGH_COLOR' is not valid.
+ERROR - C:\Program Files\PTC\Creo 4.0\M040\Common Files\text\config.pro, linenum 107:  Keyword 'SYSTEM_LETTER_COLOR' is not valid.
+ERROR - C:\Program Files\PTC\Creo 4.0\M040\Common Files\text\config.pro, linenum 116:  Keyword 'MODEL_NOTE_DISPLAY' is not valid.

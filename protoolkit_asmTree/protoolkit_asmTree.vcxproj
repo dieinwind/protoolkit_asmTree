@@ -80,6 +80,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files\PTC\Creo 4.0\M040\Common Files\protoolkit\includes;C:\Program Files\PTC\Creo 4.0\M040\Common Files\protoolkit\protk_appls\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\PTC\Creo 4.0\M040\Common Files\protoolkit\x86e_win64\obj;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -133,15 +135,34 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files\PTC\Creo 4.0\M040\Common Files\protoolkit\x86e_win64\obj;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcmt.lib;kernel32.lib;user32.lib;wsock32.lib;advapi32.lib;mpr.lib;winspool.lib;netapi32.lib;psapi.lib;gdi32.lib;shell32.lib;comdlg32.lib;ole32.lib;ws2_32.lib;protoolkit_NU.lib;pt_asynchronous.lib;udata.lib;ucore.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="creoAssembly.cpp" />
+    <ClCompile Include="creoFeature.cpp" />
+    <ClCompile Include="creoPart.cpp" />
+    <ClCompile Include="partTree.cpp" />
+    <ClCompile Include="protoolkit_asmTree.cpp" />
+    <ClCompile Include="reoPart_test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="creoAssembly.h" />
+    <ClInclude Include="creoFeature.h" />
+    <ClInclude Include="creoPart.h" />
+    <ClInclude Include="partTree.h" />
+    <ClInclude Include="reoPart_test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

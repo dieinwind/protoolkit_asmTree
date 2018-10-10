@@ -1,0 +1,83 @@
+featName :<SIDE>
+featType :<923>
+subtype :<>
+ProFeatureTypename :<基准平面>
+r_feat_num :<1>
+FeatID :<7>
+
+featName :<TOP>
+featType :<923>
+subtype :<>
+ProFeatureTypename :<基准平面>
+r_feat_num :<2>
+FeatID :<9>
+
+featName :<FRONT>
+featType :<923>
+subtype :<>
+ProFeatureTypename :<基准平面>
+r_feat_num :<3>
+FeatID :<5>
+
+featName :<START_PART>
+featType :<979>
+subtype :<>
+ProFeatureTypename :<坐标系>
+r_feat_num :<4>
+FeatID :<2>
+
+featName :<no_name>
+featType :<923>
+subtype :<>
+ProFeatureTypename :<基准平面>
+r_feat_num :<5>
+FeatID :<20>
+
+featName :<>
+featType :<949>
+subtype :<草绘曲线>
+ProFeatureTypename :<曲线>
+r_feat_num :<5>
+FeatID :<19>
+
+featName :<no_name>
+featType :<923>
+subtype :<>
+ProFeatureTypename :<基准平面>
+r_feat_num :<6>
+FeatID :<27>
+
+featName :<>
+featType :<917> PRO_FEAT_PROTRUSION
+subtype :<拉伸>
+ProFeatureTypename :<伸出项>
+r_feat_num :<6> 
+FeatID :<26>
+
+featName :<no_name>
+featType :<923> PRO_FEAT_DATUM
+subtype :<>
+ProFeatureTypename :<基准平面>
+r_feat_num :<7>
+FeatID :<49>
+
+featName :<>
+featType :<949> PRO_FEAT_CURVE
+subtype :<草绘曲线>
+ProFeatureTypename :<曲线>
+r_feat_num :<7>
+FeatID :<48>
+
+featName :<no_name>
+featType :<923> PRO_FEAT_DATUM
+subtype :<>
+ProFeatureTypename :<基准平面>
+r_feat_num :<8>
+FeatID :<57>
+
+featName :<>
+featType :<917>  PRO_FEAT_PROTRUSION
+subtype :<拉伸>
+ProFeatureTypename :<伸出项>
+r_feat_num :<8>
+FeatID :<56>
